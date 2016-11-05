@@ -57,6 +57,7 @@ footer.page-footer {
 }
 
 .doodle-container {
+  height: 100% !important;
   position: fixed;
   background-color: black;
 }
