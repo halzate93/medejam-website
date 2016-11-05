@@ -101,7 +101,7 @@
                     </ul>
                 </div>
 
-                <!-- Map section -->
+                <!-- Map -->
                 <div class="section">
                     <div class="row">
                         <div class="col s12 center">
@@ -112,7 +112,7 @@
                     </div>
                 </div>
 
-                <!-- Twitter feeds sections -->
+                <!-- Twitter feeds -->
                 <div class="section">
                     <div class="row">
                         <div class="col s12 center">
@@ -134,6 +134,41 @@
                             </script>
                         </div>
                     </div>
+                </div>
+
+                <!-- Contact form -->
+                <div class="section">
+                    <div class="row">
+                      <div class="col s12">
+                        <h5 class="center">Contáctanos</h5>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <form action="https://formspree.io/my@email.com" method="POST" class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input required name="name" id="first_name" type="text" class="validate">
+                                    <label for="first_name">Nombre</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input required name="_replyto" id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea required name="message" id="message" class="materialize-textarea"></textarea>
+                                    <label for="message">Textarea</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 center">
+                                    <button class="btn waves-effect waves-light" value="Send" type="submit" name="action">Submit
+                                        <i class="center-align material-icons right">send</i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
             </div>
             <footer class="page-footer teal">
