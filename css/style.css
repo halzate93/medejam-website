@@ -7,7 +7,11 @@
  */
 
 body {
-  /* background: #141414; */
+  background: #888;
+}
+
+nav {
+  background: #888;
 }
 
 nav ul a,
